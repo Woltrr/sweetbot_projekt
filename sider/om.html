@@ -3,137 +3,237 @@
 <head>
 <meta charset="UTF-8">
 <title>Om SweetBot</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Menu -->
 	<header>
-		<figure class="logo">
-		    <img src="../logo/sw-primær-logo.png" alt="Logo" />
-		</figure>
+			
+			<div class="logo_div">
+				<a href="../index.html" title="Logo: Til forsiden" >
+					<img src="../logo/sw-primær-logo.png" alt="logo" class="logo_img" draggable="false" >
+				</a>
+			</div>
 		
-	    <!-- Menu punkter -->
-		<ul id="menu">
-			<li><a href="services.html">Services</a></li>
-			<li><a href="om.html">Om Sweetbot</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
-			<li><a href="hotbot.html">HotBot</a></li>
-		</ul>
+		<nav>
+			<div class="toggle">
+				<i class="fa fa-bars menu" aria-hidden="true"></i>
+			</div>
+
+			<ul>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="om.html">Om Sweetbot</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="hotbot.html">Hotbot</a></li>
+			</ul>
+		</nav>
+		
 	</header>
 	
-	<div class="container">
+	
+	<div class="sweetbot">
 		<h1>SweetBot</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium rem laboriosam impedit et possimus harum inventore totam sapiente repellendus omnis, amet iusto asperiores, quis dolores, odio cumque. Voluptatibus saepe eum expedita, dolorum libero quidem molestias! Nam vero, veritatis fugiat et voluptas beatae, hic rem provident commodi magnam eveniet ad culpa vitae modi esse consectetur. Ullam modi debitis repellat quas reiciendis! In animi autem illum reprehenderit repudiandae qui minus quaerat facere.</p>
 	</div>
 	
-	<div class="container">
-		<h1>Vores team</h1>
+	<div class="om-container">
+		
+		<div class="sweetbot-tekst">
+		    <p>Sweetbot er en international digital virksomhed fra 2016. Sweetbot fokusere i øjeblikket mest på det danske marked. Vi tilbyder serviceses som hjemmesider, branding og digital sikkerhed. <br><br> 
+            Vi står bag flere af Danmarks flotteste digitale løsninger, der hver dag er med til at sætte præg på både det danske marked, og ikke mindst på det internationale marked. <br><br> 
+            Vi går meget op i kvalitet, og at møde vores kunder i øjenhøjde. Derigennem sikre vi et tæt samarbejde og de stærkeste løsninger. <br><br> 
+            Udover det så er vi netop nu i gang med, at udvikle en e-commerce løsning HOTBOT, så vores kunder bedre kan få et overblik over hvilke serviceses vi udbyder.</p>
+		</div>
+		
+	</div>
+	
+	<div class="team-container">
+		<div class="team">
+		    <h1>Vores team</h1>
+		</div>
 		
 		<!-- De 4 profiler -->
 		<div class="profil">
 			<figure class="profil-billede">
-				<img src="#" alt="Profil billede" />
+				<img src="../billeder/dame1.jpg" alt="Profil billede" class="profil_billede" />
 			</figure>
+			
 			<h3>Merete Geldermann</h3>
-			<h4>CEO</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem illo nostrum magni, rerum asperiores blanditiis dignissimos, facere dicta explicabo magnam ad commodi libero tempora quisquam. Nisi voluptas inventore laudantium alias voluptatem, numquam facilis, rem repellat aliquid quisquam fuga reiciendis fugiat! Harum suscipit commodi nesciunt quod exercitationem voluptatibus dicta aliquam.</p>
+			<h4 class="profession">CEO</h4>
+			<p> Merete Gelderman er CEO, og stiftede Sweetbot i 2016 sammen med Marc Kluge.
+				Merete Gelderman administrerer virksomhedens overordnet drift, omsætning og personale. Hun har øjet for hvad der røre sig i virksomheden, helt ned i øjenhøjde hos den enkelte medarbejder.  
+				Merete Gelderman er virksomhedens ældste. Hun formår at holde overblik, og ikke mindst gejst i teamet. Hun er virksomhedens humørbombe.
+				Merete Gelderman har 14 års erfaring med ledelse, drift, omsætning og personale.
+				<br>
+				<br>
+				meretegelderman_sweetbot@gmail.com
+            </p>
 		</div>
 		
 		<div class="profil">
 			<figure class="profil-billede">
-				<img src="#" alt="Profil billede" />
+				<img src="../billeder/mand2.jpg" alt="Profil billede" class="profil_billede" />
 			</figure>
 			<h3>Marc Kluge</h3>
-			<h4>CEO</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem illo nostrum magni, rerum asperiores blanditiis dignissimos, facere dicta explicabo magnam ad commodi libero tempora quisquam. Nisi voluptas inventore laudantium alias voluptatem, numquam facilis, rem repellat aliquid quisquam fuga reiciendis fugiat! Harum suscipit commodi nesciunt quod exercitationem voluptatibus dicta aliquam.</p>
+			<h4 class="profession">CEO</h4>
+			<p>Marc Kluge er CEO og Marketings specialist, og stiftede Sweetbot i 2016 sammen med Merete Kluge.
+            Mark Kluge administrerer virksomhedens produktudvikling og markedsføring. 
+            Det er Mark Kluge som primært er hovedet udadtil. Han tager sig af virksomhedens sammenarbejdspartnere, og møder dem med erfaring, forståelse, engagement og positivitet.
+            Mark Kluge har 13 års erfaring med produktudvikling og markedsføring.
+			<br>
+			<br>
+            markkluge_sweetbot@gmail.com
+            </p>
 		</div>
 		
 		<div class="profil">
 			<figure class="profil-billede">
-				<img src="#" alt="Profil billede" />
+				<img src="../billeder/mand3.jpg" alt="Profil billede" class="profil_billede" />
 			</figure>
-			<h3>Indsæt navn</h3>
-			<h4>Indsæt profession</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem illo nostrum magni, rerum asperiores blanditiis dignissimos, facere dicta explicabo magnam ad commodi libero tempora quisquam. Nisi voluptas inventore laudantium alias voluptatem, numquam facilis, rem repellat aliquid quisquam fuga reiciendis fugiat! Harum suscipit commodi nesciunt quod exercitationem voluptatibus dicta aliquam.</p>
+			<h3>Jonas Nørgaard</h3>
+			<h4 class="profession">Webudvikler</h4>
+			<p>Jonas Nørregaard er Webudvikler, og har arbejdet for Sweetbot siden opstart i 2016.
+            Jonas Nørregaard er med til at lave digitale løsninger, som hjemmesider og digital sikkerhed. 
+            Jonas Nørregaard er hurtig og hamrende dygtig til web udvikling. Han vælger aldrig de lette løsninger, men de løsninger som er mest optimale til de forskellige projekter.
+            Jonas Nørregaard har 10 års erfaring med web udvikling.
+			<br>
+			<br>
+            jonasnørregaard_sweetbot@gmail.com
+            </p>
 		</div>
 		
 		<div class="profil">
 			<figure class="profil-billede">
-				<img src="#" alt="Profil billede" />
+				<img src="../billeder/dame3.jpg" alt="Profil billede" class="profil_billede" />
 			</figure>
-			<h3>Indsæt navn</h3>
-			<h4>Indsæt profession</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum dolorem illo nostrum magni, rerum asperiores blanditiis dignissimos, facere dicta explicabo magnam ad commodi libero tempora quisquam. Nisi voluptas inventore laudantium alias voluptatem, numquam facilis, rem repellat aliquid quisquam fuga reiciendis fugiat! Harum suscipit commodi nesciunt quod exercitationem voluptatibus dicta aliquam.</p>
+			<h3>Alma Sandstrand</h3>
+			<h4 class="profession">Grafisk designer</h4>
+			<p>Alma Strandsand er Grafisk designer og Brand strategist, og har arbejdet for Sweetbot siden opstart i 2016.
+            Alma Strandsand er med til at designe de forskellige digitale løsninger. Udover det, så har Alma Strandsand stor erfaring med branding og visuel identitet 
+            Alma Sandstrand er virksomhedens friske pust, og bidrager meget til fællesskabet. Hun er enormt engageret i projekterne, og ikke mindst ligeså dygtig til at følge dem til dørs. 
+            Alma Sandstrand har 7 års erfaring med design, brand strategi og visuel identitet 
+			<br>
+			<br>
+            almasandstrand_sweetbot@gmail.com
+            </p>
+		</div>
+		
+		<div class="profil">
+			<figure class="profil-billede">
+				<img src="../billeder/dame2.jpg" alt="Profil billede" class="profil_billede" />
+			</figure>
+			<h3>Kia Hansen</h3>
+			<h4 class="profession">Webudvikler</h4>
+			<p>Kia Hansen er webudvikler, og har arbejdet for Sweetbot siden 2017.
+            Kia Hansen er med til, at optimere og realisere virksomhedens digitale løsninger.
+            Kia Hansen er en forholdsvis ny medarbejder for Sweetbot, og virksomhedens yngste medarbejder. Kia Hansen er målrettet, og har et godt øje for flot web udvikling.
+            Kia Hansen har 6 års erfaring med digital udvikling.
+			<br>
+			<br>
+            kiahansen_sweetbot@gmail.com
+            </p>
+		</div>
+		
+		<div class="profil">
+			<figure class="profil-billede">
+				<img src="../billeder/mand1.jpg" alt="Profil billede" class="profil_billede" />
+			</figure>
+			<h3>Søren Spangsberg</h3>
+			<h4 class="profession">Grafisk designer</h4>
+			<p>Søren Spangsberg er Grafisk designer, og har arbejdet for Sweetbot siden opstart i 2016.
+            Søren Spangsberg er med til, at designe de forskellige webløsninger. ¬¬
+            Søren Spangsberg deltager aktivt i projekter, og er en sand teamplayer. 
+            Søren Spangsberg har 7 års erfaring med grafisk design.
+			<br>
+			<br>
+            sørenspangsberg_sweetbot@gmail.com
+            </p>
 		</div>
 	</div>
 	
-	<div class="container">
-		<h1>Kunder</h1>
+	<div class="kunde-container">
+		<div class="kunder">
+		    <h1>Kunder</h1>
+		</div>
 		
 		<!-- Til siden pil (venstre) -->
-		<figure class="venstre pil">
-			<img src="#" alt="Venstre pil" />
+		<figure class="venstre-pil">
+			<img src="../ikoner/arrow-left.png" alt="Venstre pil" style="width: 15%;" id="venstre-pil" />
 		</figure>
 		
 		<!-- Kunde logoer -->
 		<figure class="kunde-logo">
-			<img src="#" alt="Kunde logo" />
+			<img src="../kunde-logoer/kisspng-mango-brand-retail-discounts-and-allowances-coupon-zara-logo-5b3c9f156eeac0.0398454315306995414543.png" alt="Kunde logo" class="kunde-billeder" id="mango" />
 		</figure>
 		
 		<figure class="kunde-logo">
-			<img src="#" alt="Kunde logo" />
+			<img src="../kunde-logoer/vimeo_logo_dark.png" alt="Kunde logo" class="kunde-billeder" id="vimeo" />
 		</figure>
 		
 		<figure class="kunde-logo">
-			<img src="#" alt="Kunde logo" />
+			<img src="../kunde-logoer/Discord-Logo+Wordmark-Black.png" alt="Kunde logo" class="kunde-billeder" id="discord" />
 		</figure>
 		
 		<figure class="kunde-logo">
-			<img src="#" alt="Kunde logo" />
+			<img src="../kunde-logoer/2000px-Zara_Logo.svg.png" alt="Kunde logo" class="kunde-billeder" id="zara" />
 		</figure>
 		
 		<figure class="kunde-logo">
-			<img src="#" alt="Kunde logo" />
+			<img src="../kunde-logoer/Wordmark_Black.png" alt="Kunde logo" class="kunde-billeder" id="medium" />
 		</figure>
 		
 		<figure class="kunde-logo">
-			<img src="#" alt="Kunde logo" />
+			<img src="../kunde-logoer/Kino-Logo-Black-Transparent-Small.png" alt="Kunde logo" class="kunde-billeder" id="kino" />
 		</figure>
 		
 		<!-- Til siden pil (højre) -->
-		<figure class="højre pil">
-			<img src="#" alt="Højre pil" />
+		<figure class="højre-pil">
+			<img src="../ikoner/arrow-right.png" alt="Højre pil" style="width: 15%;" id="hoejre-pil" />
 		</figure>
 	</div>
 	
 	
 	<footer class="container footer">
 		<!-- Kontaktoplysninger -->
-		<div class="footer-box">
-			<h3>Kontaktoplysninger</h3>
+		<div class="footer-box oplysninger">
+			<h4>Kontaktoplysninger</h4>
+			<h5>Tlf.: (+45) 80 13 22 06</h5>
+			<h5>Man-fre 08:00-16:00</h5>
+			<h5>Mail: support@sweetbot.dk</h5>
+			<h5>Cvr. nr.: 55 17 20 41</h5>
 		</div>
 		
 		<!-- Adresse og sociale medier -->
-		<div class="footer-box">
-			<h3>Adresse</h3>
+		<div class="footer-box adresse">
+			<h4>Adresse</h4>
+			<h5>Nørgaardsvej 30</h5>
+			<h5>2800 Kongens Lyngby</h5>
 			<!-- sociale medier -->
-			<h3>Følg med os på:</h3>
-			<!-- Sociale medier: ikoner -->
-			<div class="sociale-medier">
-		        <i class="#"></i>
-				<i class="#"></i>
-				<i class="#"></i>
-				<i class="#"></i>
-			</div>
 		</div>
 		
 		<!-- Placerings kort -->
-		<div class="footer-box">
-		    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.402693978913!2d12.509846802991117!3d55.77020370548601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e6d778cb02b%3A0x7e3ab7668df86d7c!2sCphbusiness+Lyngby!5e0!3m2!1sda!2sdk!4v1542622904572" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="footer-box kort">
+		    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.402693978913!2d12.509846802991117!3d55.77020370548601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e6d778cb02b%3A0x7e3ab7668df86d7c!2sCphbusiness+Lyngby!5e0!3m2!1sda!2sdk!4v1542622904572" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
 		</div>
 		
+		<div class="footer-box copyright">
+		    <h6>&copy; 2018 Copyright, all rights reserved</h6>
+		</div>
+	
+	
+	<script src="../js/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+			$('.menu').click(function(){
+				$('ul').toggleClass('active');
+			})
+		})
 		
-		<p id="copyright">&copy; 2018 Copyright, all rights reserved</p>
+	</script>
 	</footer>
 </body>
 </html>

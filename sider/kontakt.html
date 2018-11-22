@@ -3,71 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <title>Kontakt</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Menu -->
 	<header>
-		<figure class="logo">
-		    <img src="../logo/sw-primær-logo.png" alt="Logo" />
-		</figure>
+			
+			<div class="logo_div">
+				<a href="../index.html" title="Logo: Til forsiden" >
+					<img src="../logo/sw-primær-logo.png" alt="logo" class="logo_img" draggable="false" >
+				</a>
+			</div>
 		
-	    <!-- Menu punkter -->
-		<ul id="menu">
-			<li><a href="services.html">Services</a></li>
-			<li><a href="om.html">Om Sweetbot</a></li>
-			<li><a href="kontakt.html">Kontakt</a></li>
-			<li><a href="hotbot.html">HotBot</a></li>
-		</ul>
+		<nav>
+			<div class="toggle">
+				<i class="fa fa-bars menu" aria-hidden="true"></i>
+			</div>
+
+			<ul>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="om.html">Om Sweetbot</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><a href="hotbot.html">Hotbot</a></li>
+			</ul>
+		</nav>
+		
 	</header>
-	
-	<div class="container">
+
+	<div class="container-kontakt">
 		<h1>Kontakt os</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, dignissimos!</p>
-		
+		<p>Vi sidder altid til rådighed til at hjælpe dig!</p>
+
 		<!-- Kontakt formular -->
-		<form action="mailto:pey.barrett@hotmail.com" method="post" enctype="text/plain">
-		    <input id="name" type="text" name="fullname" placeholder="Name *" required>
-		    <input id="e-mail" type="text" name="email" placeholder="E-mail *" required>
-		    <input id="phone" type="text" name="phone" placeholder="Phone" autofocus required>
-		    <input id="subject" type="text" name="subject" placeholder="Subject *" required>
-		    <textarea name="subject" placeholder="Message *" style="height:200px" required></textarea>
-		
-			<!-- Send besked knap -->
-			<button id="message-btn">
-				<input id="massage-button" type="submit" value="Send Message">
-			</button>
-	    </form>
+		<form action="mailto:magnuswolter@jubii.dk" method="post" enctype="text/plain">
+		      <p>
+		    <label>Dit navn:</label>
+		  </p>
+		      <p>
+		    <input type="text" name="name" placeholder="Type your name..." autofocus required>
+		  </p>
+		      <p>
+		    <label>Din email:</label>
+		  </p>
+		      <p>
+		    <input type="email" name="email" placeholder="Type a valid mail address..." required>
+		  </p>
+		      <p>
+		    <label>Din besked:</label>
+		  </p>
+		      <p>
+		    <textarea name="comment" placeholder="Your message..."></textarea>
+		  </p>
+		      <input type="submit" value="Send besked">
+		    </form>
 	</div>
-	
-	
+
+
 	<footer class="container footer">
 		<!-- Kontaktoplysninger -->
-		<div class="footer-box">
-			<h3>Kontaktoplysninger</h3>
+		<div class="footer-box oplysninger">
+			<h4>Kontaktoplysninger</h4>
+			<h5>Tlf.: (+45) 80 13 22 06</h5>
+			<h5>Man-fre 08:00-16:00</h5>
+			<h5>Mail: support@sweetbot.dk</h5>
+			<h5>Cvr. nr.: 55 17 20 41</h5>
 		</div>
-		
+
 		<!-- Adresse og sociale medier -->
-		<div class="footer-box">
-			<h3>Adresse</h3>
+		<div class="footer-box adresse">
+			<h4>Adresse</h4>
+			<h5>Nørgaardsvej 30</h5>
+			<h5>2800 Kongens Lyngby</h5>
 			<!-- sociale medier -->
-			<h3>Følg med os på:</h3>
-			<!-- Sociale medier: ikoner -->
-			<div class="sociale-medier">
-		        <i class="#"></i>
-				<i class="#"></i>
-				<i class="#"></i>
-				<i class="#"></i>
-			</div>
 		</div>
-		
+
 		<!-- Placerings kort -->
-		<div class="footer-box">
-		    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.402693978913!2d12.509846802991117!3d55.77020370548601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e6d778cb02b%3A0x7e3ab7668df86d7c!2sCphbusiness+Lyngby!5e0!3m2!1sda!2sdk!4v1542622904572" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+		<div class="footer-box kort">
+		    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.402693978913!2d12.509846802991117!3d55.77020370548601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46524e6d778cb02b%3A0x7e3ab7668df86d7c!2sCphbusiness+Lyngby!5e0!3m2!1sda!2sdk!4v1542622904572" frameborder="0" style="display:none;" allowfullscreen></iframe>
 		</div>
-		
-		
-		<p id="copyright">&copy; 2018 Copyright, all rights reserved</p>
+
+		<div class="footer-box copyright">
+		    <h6>&copy; 2018 Copyright, all rights reserved</h6>
+		</div>
 	</footer>
+	
+	
+	
+	<script src="../js/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+			$('.menu').click(function(){
+				$('ul').toggleClass('active');
+			})
+		})
+		
+	</script>
 </body>
 </html>
